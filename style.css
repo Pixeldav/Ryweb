@@ -1,6 +1,33 @@
     /* style.css */
     body {
-        font-family: sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
-        margin-top: 50px;
+        margin: 0px;
+        background-color: #0c0c0c;
     }
+
+@keyframes scroll {
+  from { background-position-x: 0; }
+  to { background-position-x: -120px; }
+}
+
+.repeating-bg {
+  background-image: url("images/tenna.gif");
+  background-repeat: repeat-x;
+  background-size: 120px auto;
+  height: 122px;
+  width: 100vw; 
+  animation: scroll 1s linear infinite;
+}
+
+
+.title-repeat {
+  background-repeat: repeat-x;
+  background-color: black;
+  background-position-y: center;
+  background-size: 120px auto;
+  height: 50px;
+  width: 100vw; 
+  color: white;
+}
+
