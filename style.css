@@ -25,13 +25,45 @@ p {
 }
 
 
-.title-repeat {
-  background-repeat: repeat-x;
-  background-color: black;
+.title-color {
+  background-color: white;
+  color: black;
   background-position-y: center;
-  background-size: 120px auto;
   height: 50px;
   width: 100vw; 
   color: white;
 }
 
+.parent-container {
+    position: fixed;
+     bottom: 0; /* stick to top of screen */
+     right: 0;
+     width: 100vw;
+     height: 40px;
+     
+    overflow: auto; /* Example: if parent container has scrolling */
+}
+
+.absolute-button-creds {
+    position: absolute;
+    background-position-x: center;
+    background-size: cover;
+    width: 80px;
+    height: 40px;
+    background-image: url("images/CredsSmol.gif");
+    /* Other styles for the button */
+}
+
+.height-test{
+    height: 250px;
+    right: 100px;
+    background-color: aqua;
+    width: 10px;
+}
+
+.bar1{
+    height: 40px;
+}
+.btn1{
+    width: 400px;
+}
